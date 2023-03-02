@@ -16,13 +16,21 @@ The programming language used to make this program is Python.
 
 Install Questionary and Fire from Python Library using the following command in python:
 
-'''python
+```python
 text = 'install pip fire'
 print(text)
-'''
+```
+```python
+text = 'install pip questionary'
+print(text)
+```
 
-Then activate the program 
+Then activate the program using
 
+```python
+text = 'python app.py'
+print(text)
+```
 
 ## Usage
 
