@@ -8,7 +8,11 @@ Using this application will allow users to quickly identify and access loans the
 
 ## Technologies
 
-The programming language used to make this program is Python.
+This project leverages Python 3.7 with the following packages:
+
+    fire - for the command interface
+
+    questionary - for the interactive user prompts and dialogs
 
 ---
 
@@ -22,12 +26,9 @@ Install Questionary and Fire from Python Library using the following command in 
 ```python
 'install pip questionary'
 ```
-Then activate the program using
-
-```python
-'python app.py'
-```
 ## Usage
+
+To use the Loan Qualifier Application, clone the repository and run the **app.py** application in the terminal.
 
 When prompted, enter the output path for the rate sheet for the loans which is located in the "data" folder. 
 
@@ -36,11 +37,31 @@ When prompted, enter the output path for the rate sheet for the loans which is l
 ```
 When prompted, enter credit score, monthly debt, monthly income, desired loan amount, and home value.
 
-![User prompts](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%201.png)
+![User prompts 1](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%201.png)
 
-The program will filter and identify the number of qualified loans.
+The program will then filter and identify the number of qualified loans.
 
-When prompted, enter whether or not you would like to save the file. If there are no qualifying loans, it will let you know there are 0 qualifying loans and will exit the program. If there are qualifying loans, it will prompt you whether or not you want to save the file. If you would like to save the file, enter the output path and the file will save as a csv file. If you would not like to save the file, the program will be suspended.
+![User prompts 2](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%202.png)
+
+When prompted, enter whether or not you would like to save the file. 
+
+![User prompts 3](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%203.png)
+
+If there are no qualifying loans, it will let you know there are 0 qualifying loans and will exit the program. 
+
+![User prompts 4](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%204.png)
+
+If there are qualifying loans, it will prompt you whether or not you want to save the file. If you would like to save the file, enter the output path (using .csv format) and the file will save as a csv file. 
+
+![User prompts 5](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%205.png)
+
+If you would not like to save the file, the program will be suspended.
+
+![User prompts 6](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%206.png)
+
+If you do not enter either a Yes or a No, you will receive an error message and will be asked to enter a Yes or a No.
+
+![User prompts 7](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%207.png)
 
 ## Contributors
 
