@@ -1,30 +1,32 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This application allows users to see whether they qualify for loans from an existing data set provided by a 'daily rate sheet' by entering their credit score, monthly debt, monthly income, desired loan amount, and their home value. From these inputs, Debt to Income Ratio, and loan to home value is calculated. The loans from the daily rate sheet are then filtered based on if the ratios fit the criteria for the existing loans.
+
+Using this application will allow users to quickly identify and access loans they qualify for as opposed to having to filter loans out manually that is usually done by a third party.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+The programming language used to make this program is Python.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Install Questionary and Fire from Python Library using the following command in python:
 
----
+Then activate the program 
+
 
 ## Usage
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
----
+
+
 
 ## Contributors
-
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
 
 Kaushik Basavaraju
 Email: kash.basavaraju@gmail.com
@@ -32,7 +34,5 @@ Email: kash.basavaraju@gmail.com
 ---
 
 ## License
-
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
 
 MIT
