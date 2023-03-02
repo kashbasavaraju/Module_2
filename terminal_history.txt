@@ -3,3 +3,5 @@
     3  cd loan_qualifier_app
     4  conda activate dev
     5  history 50 > terminal_history.txt
+    6  python app.py
+    7  history 50 > terminal_history.txt
