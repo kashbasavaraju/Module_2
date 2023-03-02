@@ -111,23 +111,33 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
+    ## Asks whether you want to save the qualifying loans list
+
     answer = questionary.text("Would you like to save qualifying loans?").ask()
-    message = "Yes or No only"
+    error_message = "Yes or No only"
+
+    ## Conditional statement to allow saving of csv file if user says yes; if there are no qualifying loans to save then program exits automatically
 
     if answer == "Yes":
         if len(qualifying_loans) == 0:
             print("No qualifying loans to save")
             sys.exit("Exiting the file...")
         else:
+            csvpath = questionary.text("Enter a file path to save the file (.csv):").ask()
             print("Saving to csv file...")
-            csvpath = Path('qualifying_loans.csv')
-            save_csv(csvpath, qualifying_loans)
+            save_csv(Path(csvpath), qualifying_loans)
+            sys.exit("Exiting the file...")
+
+    ## If user says "No" the program does not save the file and the program ends.
 
     if answer == "No":
-        sys.exit("Ok - Exiting the file")
-    
-    else:
-        print(message)
+        sys.exit("Ok - Exiting the file...")
+
+    ## If the user does not enter "Yes or No", the user receives an error message and then loops the save_qualifying_loans function again until the user types in either a Yes or a No.
+
+    if answer != "Yes" or "No":
+        print(error_message)
+        save_qualifying_loans(qualifying_loans)
 
 def run():
     """The main function for running the script."""
