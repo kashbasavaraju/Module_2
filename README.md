@@ -27,12 +27,16 @@ Then activate the program using
 ```python
 'python app.py'
 ```
-
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project
+When prompted, enter the output path for the rate sheet for the loans which is located in the "data" folder. 
 
+```python
+'./data/daily_rate_sheet.csv'
+```
 When prompted, enter credit score, monthly debt, monthly income, desired loan amount, and home value.
+
+![](User Prompts Part 1)
 
 The program will filter and identify the number of qualified loans.
 
