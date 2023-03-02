@@ -36,7 +36,7 @@ When prompted, enter the output path for the rate sheet for the loans which is l
 ```
 When prompted, enter credit score, monthly debt, monthly income, desired loan amount, and home value.
 
-![User prompts](User Prompts Part 1.png)
+![User prompts](https://github.com/kashbasavaraju/Module_2/blob/main/User%20Prompts%20Part%201.png)
 
 The program will filter and identify the number of qualified loans.
 
