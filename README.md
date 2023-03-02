@@ -17,26 +17,26 @@ The programming language used to make this program is Python.
 Install Questionary and Fire from Python Library using the following command in python:
 
 ```python
-text = 'install pip fire'
-print(text)
+'install pip fire'
 ```
 ```python
-text = 'install pip questionary'
-print(text)
+'install pip questionary'
 ```
-
 Then activate the program using
 
 ```python
-text = 'python app.py'
-print(text)
+'python app.py'
 ```
 
 ## Usage
 
 This section should include screenshots, code blocks, or animations explaining how to use your project
 
+When prompted, enter credit score, monthly debt, monthly income, desired loan amount, and home value.
 
+The program will filter and identify the number of qualified loans.
+
+When prompted, enter whether or not you would like to save the file. If there are no qualifying loans, it will let you know there are 0 qualifying loans and will exit the program. If there are qualifying loans, it will prompt you whether or not you want to save the file. If you would like to save the file, enter the output path and the file will save as a csv file. If you would not like to save the file, the program will be suspended.
 
 ## Contributors
 
